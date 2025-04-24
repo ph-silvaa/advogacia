@@ -1,0 +1,145 @@
+:root{
+    --bg: #050404;
+    --border: rgb(#ffc52b,#fadd52,#eeb71f);
+    --black: #131010;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Lora", serif;
+}
+
+
+body {
+    background-color: rgb(209, 211, 208);
+}
+
+section{
+    padding: 5rem;
+    margin: 0;
+    max-width: 1200px;
+}
+
+.btn {
+    background: rgb(183, 110, 121);
+    color: #ffffff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    display: inline-block;
+    transition: 0.6s;
+    border-radius: 3rem;
+    
+
+}
+
+.btn:hover {
+    color: #000000;
+    background-color:#870d0d ;
+    
+   
+}
+
+.home-container {
+    text-align: left;
+    background: url("assets/img/pexels-pavel-danilyuk-8111865.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000048;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.home-container .content {
+   height: 50rem;
+    position: relative;
+    top: 200px;
+    
+}
+.home-container .logo{
+    margin-top: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    
+}
+.home-container h1 {
+    margin-top: -290px;
+    width: 60rem;
+    color: #ffffff;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.3;  
+  }
+
+.content p {
+    color: rgb(220, 174, 150);
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 1.4;
+    padding: 0rem 0;
+}
+
+
+
+/* sobre */
+
+
+.sobre {
+    width: 300px; /* Define a largura da div */
+    background-color: #eeb71f;
+    margin: 0 auto; /* Centraliza a div */
+    text-align: center; /* Centraliza o texto dentro da div */
+    overflow: hidden; /* Corta o conteúdo que ultrapassar a largura da div */
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    position: relative;
+    top: -252px;
+    font-weight: 12rem;
+    
+  }
+
+.sobre h1 {
+    height: 2%;
+    color: #fff;
+    font-size: 2rem; /* Diminui o tamanho do texto */
+    text-overflow: ellipsis; /* Adiciona reticências caso o texto seja cortado */
+    margin: 0; /* Remove margem da tag h1 */
+    height: 80px;
+    position: relative;
+    top: 20px;
+  }
+
+.sobre-container {
+    
+    background-color: #6a807a !important;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    
+}
