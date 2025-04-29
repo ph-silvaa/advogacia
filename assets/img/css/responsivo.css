@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    .content h1 {
+      font-size: 1rem;
+      display: flex;
+        align-items: center;
+        text-align: left;
+        position: relative;
+        margin-bottom: 2rem;
+        text-align: center;
+        top: -105px;
+        
+
+    }
+
+    .content h1 span{
+        white-space: nowrap;
+        font-size: 1rem;
+        display: flex;
+        align-items: baseline;
+    }
+  
+    .content h2 {
+      font-size: 1.2rem;
+    }
+  
+    .btn {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+    }
+  
+    .container-sobre-img,
+    .container-img-text {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .servicos .cards {
+      grid-template-columns: 1fr;
+    }
+
+    .sobre-container{
+        display: none;
+    }
+  }
+
