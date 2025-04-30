@@ -398,4 +398,11 @@ section{
     top: 70px;
 }
 
+.footer-container span{
+    color: #D89C3A;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -100px;
+}
+
 
